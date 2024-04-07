@@ -1,0 +1,343 @@
+.sfondo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+
+}
+
+.navbar {
+    margin: 10px;
+    background: url(video\ \(2\).mp4);
+    width: 33vw;
+}
+
+.navbar li a {
+    color: white;
+}
+
+
+
+/* INDEX */
+
+.sfondo-mobile {
+    display: none;
+}
+
+#profilePic {
+    height: 150px;
+    border-radius: 100px;
+    border: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.589);
+    opacity: .9;
+    margin-bottom: 25vh;
+    margin-left: 23vw;
+}
+
+#carouselExample {
+    height: 200px;
+    width: 200px;
+    margin-top: 33vh;
+    margin-left: 32vw;
+    display: inline-block;
+}
+
+#carouselExample h3 {
+    text-align: center;
+    color: rgb(87, 103, 205);
+    text-shadow: 1px 1px 1px black;
+}
+
+
+/* PAGINA CURRICULUM */
+
+#cv {
+    display: flex;
+    justify-content: center;
+}
+
+#cv img {
+    width: 30%;
+    height: 90vh;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+
+#scarica {
+    margin: 0 auto;
+    background-color: #ccffffc0;
+    width: 300px;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+
+}
+
+#scarica button {
+    background-color: #ccffff;
+    border-color: rgb(26, 181, 168);
+}
+
+
+/* FOOTER*/
+
+footer {
+    height: 30px;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+
+}
+
+.social img {
+    height: 30px;
+
+}
+
+.social a {
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+}
+
+.social-index {
+    margin-top: 50px;
+}
+
+.social-cv {
+    margin-bottom: 30px;
+}
+
+#footerHome {
+    margin-top: -15vh;
+}
+
+/* PAGINA PROGETTI */
+
+#titolo-progetti {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+#main-progetti {
+    margin: 40px;
+}
+
+#footer-progetti {
+    margin-bottom: 40px;
+}
+
+#main-progetti a {
+    text-decoration: none;
+    font-style: italic;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-body h5 {
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+
+/* CONTATTI */
+
+#titolo-contatti {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+#telefono img,
+#email img,
+#social-contatti img {
+    height: 30px;
+}
+
+#social-contatti a {
+    text-decoration: none;
+    color: white;
+
+}
+
+#contacts {
+    border: 3px solid white;
+    border-radius: 5px;
+    width: 250px;
+    padding: 20px;
+    background-color: #289ccec0;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 40px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+
+
+
+#telefono,
+#email,
+#linkedin {
+    margin-bottom: 25px;
+}
+
+
+/* PROGETTI JAVA */
+
+#videomacchinetta,
+#videoprodotti {
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+}
+
+.titolojava {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+.titoletto {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+#riga {
+    border: 3px solid rgb(26, 181, 168);
+}
+
+#codice1 {
+    text-align: center;
+    background-color: #ccffff;
+    width: 230px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+#codice1 a {
+    text-decoration: none;
+    font-style: italic;
+    color: blue;
+}
+
+/* MEDIA QUERIS */
+
+/* Stili per dispositivi mobili */
+@media only screen and (max-width: 900px) {
+
+    .sfondo-mobile {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: -1;
+    }
+
+    .navbar-collapse {
+        position: fixed;
+        top: 65px;
+        left: 5px;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(5, 81, 139, 0.9);
+        z-index: 1;
+        padding: 5px;
+        width: 100px;
+        height: 250px;
+        text-align: center;
+    }
+
+
+    /*ABOUT */
+
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    #profilePic {
+        display: block;
+        margin: 0 auto;
+        margin-top: 27vh;
+        height: 100px;
+    }
+
+    #carouselExample {
+        display: block;
+        margin: 0 auto;
+        margin-top: 3vh;
+        height: 100px;
+        width: 100px;
+    }
+
+    #carouselExample img {
+        height: 90px;
+        width: 90px;
+    }
+
+    #footerHome {
+        margin-top: 140px;
+    }
+
+    /* CURRICULUM */
+    #cv {
+        flex-direction: column;
+    }
+
+    #cv img {
+        width: 93%;
+        height: 80vh;
+    }
+
+    /* PROGETTI */
+    #main-progetti .card {
+        display: block !important;
+        width: 80% !important;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
+    /* PROGETTI JAVA */
+    #videomacchinetta,
+    #videoprodotti {
+        width: 90%;
+        height: 200px;
+    }
+
+    .titoletto {
+        margin-bottom: 30px;
+    }
+
+}
